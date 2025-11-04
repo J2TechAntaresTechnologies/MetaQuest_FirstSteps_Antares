@@ -111,7 +111,7 @@ Referencias oficiales WebXR (tecnología en evolución)
 - MDN Web Docs (WebXR): https://developer.mozilla.org/docs/Web/API/WebXR_Device_API
 
 WebXR es un estándar abierto en evolución. Aquí mostramos cómo implementarlo en procesos industriales y en el marco de Industria 5.0, priorizando acceso inmediato desde visor y prototipado ágil. 
-:D
+
 
 Autor: Juan Ignacio Martinez
 

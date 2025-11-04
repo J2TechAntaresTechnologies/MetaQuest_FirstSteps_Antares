@@ -110,11 +110,11 @@ Referencias oficiales WebXR (tecnología en evolución)
 - Immersive Web (grupo comunitario): https://immersive-web.github.io/
 - MDN Web Docs (WebXR): https://developer.mozilla.org/docs/Web/API/WebXR_Device_API
 
-WebXR es un estándar abierto en evolución. Aquí mostramos cómo implementarlo en procesos industriales y en el marco de Industria 5.0, priorizando acceso inmediato desde visor y prototipado ágil.
-
+WebXR es un estándar abierto en evolución. Aquí mostramos cómo implementarlo en procesos industriales y en el marco de Industria 5.0, priorizando acceso inmediato desde visor y prototipado ágil. 
+:D
 
 Autor: Juan Ignacio Martinez
 
 <p align="center">
-  <img src="./tutorial/assets/webxr-first-steps.png" style="max-width:188px"/>
+  <img src="./tutorial/assets/webxr-first-steps.png" style="max-width:100px"/>
 </p>

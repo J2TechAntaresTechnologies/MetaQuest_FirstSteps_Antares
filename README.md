@@ -116,5 +116,5 @@ WebXR es un estándar abierto en evolución. Aquí mostramos cómo implementarlo
 Autor: Juan Ignacio Martinez
 
 <p align="center">
-  <img src="./tutorial/assets/webxr-first-steps.png" style="max-width:100px"/>
+  <img src="./tutorial/assets/webxr-first-steps.png" style="max-width:190px"/>
 </p>

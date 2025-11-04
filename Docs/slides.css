@@ -1,0 +1,59 @@
+:root { --brand-size: 52px; }
+.reveal .slides { font-size: 60px; }
+.reveal h1, .reveal h2, .reveal h3 { text-transform: none; }
+.logo { position: fixed; top: 16px; right: 20px; z-index: 10; }
+.logo img { height: var(--brand-size); opacity: 0.85; }
+@media print {
+  .logo { display: none; }
+}
+
+/* Carousel (continuous, rotatory) */
+:root {
+  --carousel-width: 960px;
+  --carousel-height: 240px;
+  --carousel-gap: 24px;
+  --carousel-speed: 30s; /* full loop duration */
+}
+
+.carousel {
+  width: var(--carousel-width);
+  height: var(--carousel-height);
+  margin: 12px auto;
+  position: relative;
+}
+
+.carousel__viewport {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /* Optional edge fade */
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+}
+
+.carousel__track {
+  display: flex;
+  align-items: center;
+  gap: var(--carousel-gap);
+  height: 100%;
+  /* Two copies of items are appended via JS to enable seamless loop. */
+  animation: carousel-scroll var(--carousel-speed) linear infinite;
+}
+
+.carousel__item {
+  flex: 0 0 auto;
+  height: 100%;
+}
+
+.carousel__item img {
+  display: block;
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+@keyframes carousel-scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curso 2 – Fundamentos WebXR con Three.js</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="../Docs/slides.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown data-separator="^---$" data-separator-vertical="^--$">
+          <textarea data-template>
+# Curso 2
+## Fundamentos WebXR con Three.js
+
+Duración: 1 semana (5×3h) — Nivel: Intermedio
+
+---
+
+## Objetivos
+- Setup WebXR + IWER/DevUI
+- Three.js: escena/cámara/renderer
+- Interacción XR, assets GLTF, audio, texto
+- Colisiones, estado, rendimiento
+- Despliegue y QA
+
+---
+
+## Día 1 – Setup y base 3D
+- WebXR y emulación
+- Escena/cámara/renderer
+- Render loop y helpers
+
+--
+### Lab
+- `npm run dev` y escena base
+
+---
+
+## Día 2 – Interacción
+- Controladores XR, GamepadWrapper
+- Raycasting
+- Animación (clock/GSAP)
+
+--
+### Lab
+- Movimiento y disparo básico
+
+---
+
+## Día 3 – Assets y UI
+- GLTF/GLB
+- Texto con troika
+- Audio posicional
+
+--
+### Lab
+- UI de puntuación + sonidos
+
+---
+
+## Día 4 – Colisiones y estado
+- Proximidad/TTL
+- Estructura de estado
+- Optimización ligera
+
+--
+### Lab
+- Juego de dianas
+
+---
+
+## Día 5 – Despliegue/QA
+- Webpack `mode`
+- GitHub Pages / hosting
+- Demo final
+
+---
+
+## Entregables
+- Mini‑proyecto funcional
+- Código limpio y documentado
+
+---
+
+## Q&A
+          </textarea>
+        </section>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/markdown/markdown.js"></script>
+    <script>
+      const deck = new Reveal({ hash: true, slideNumber: true });
+      deck.initialize({
+        plugins: [ RevealMarkdown ],
+        width: 1280,
+        height: 720,
+        transition: 'fade'
+      });
+    </script>
+  </body>
+  </html>
+

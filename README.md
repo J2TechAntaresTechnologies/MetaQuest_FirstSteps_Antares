@@ -17,11 +17,11 @@ By the end of this tutorial, you’ll have created a fully functional WebXR game
 
 To prepare your development environment and get started with building your WebXR experience, follow the steps below:
 
-1. **Clone this repository**:
+1. **Clona este repositorio (tu fork o repo nuevo)**:
 
    ```bash
-   git clone git@github.com:meta-quest/webxr-first-steps.git
-   cd webxr-first-steps
+   git clone https://github.com/<tu-usuario>/<tu-repo>.git
+   cd <tu-repo>
    ```
 
 2. **Verify that you have Node.js and npm installed**:

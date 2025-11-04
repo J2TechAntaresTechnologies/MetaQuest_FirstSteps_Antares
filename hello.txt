@@ -1,0 +1,57 @@
+Hello World - Guía Rápida (C, C++, Java, Python)
+
+Requisitos (local):
+- C: gcc o clang
+- C++: g++ o clang++
+- Java: JDK (javac/java)
+- Python: Python 3
+
+---
+C
+Archivo: hello.c
+Contenido:
+#include <stdio.h>
+
+int main(void) {
+    printf("Hello, World!\n");
+    return 0;
+}
+
+Compilar y ejecutar:
+gcc hello.c -o hello && ./hello
+
+---
+C++
+Archivo: hello.cpp
+Contenido:
+#include <iostream>
+int main() {
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
+}
+
+Compilar y ejecutar:
+g++ hello.cpp -o hello && ./hello
+
+---
+Java
+Archivo: Hello.java
+Contenido:
+public class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+
+Compilar y ejecutar:
+javac Hello.java && java Hello
+
+---
+Python
+Archivo: hello.py
+Contenido:
+print("Hello, World!")
+
+Ejecutar:
+python3 hello.py
+

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curso 3 – Proyecto WebXR Industrial</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="../Docs/slides.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown data-separator="^---$" data-separator-vertical="^--$">
+          <textarea data-template>
+# Curso 3
+## Proyecto WebXR Industrial (end‑to‑end)
+
+Duración: 3 semanas — Nivel: Intermedio‑avanzado
+
+---
+
+## Objetivos
+- Arquitectura y capas
+- Datos en tiempo real (WS/MQTT/REST)
+- UX XR y depuración
+- Performance y despliegue
+
+---
+
+## Semana 1 – Fundamentos/Arquitectura
+- Estructura modular y estado global
+- UX XR: legibilidad, confort, escalas
+- Skeleton de proyecto
+
+--
+### Lab
+- Base del POC + estándares
+
+---
+
+## Semana 2 – Datos/Interacción
+- Integración de datos (mock → real)
+- Paneles UI (troika, HUD)
+- Interacción avanzada y haptics
+
+--
+### Lab
+- Flujo de datos vivo + controles
+
+---
+
+## Semana 3 – Performance/QA/Deploy
+- Optimización de escena/materiales
+- Medición y QA XR
+- Despliegue y MDM
+
+--
+### Lab
+- Endurecer POC + demo final
+
+---
+
+## Entregables y evaluación
+- POC funcional, código documentado
+- Hitos semanales + demo
+
+---
+
+## Q&A
+          </textarea>
+        </section>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/markdown/markdown.js"></script>
+    <script>
+      const deck = new Reveal({ hash: true, slideNumber: true });
+      deck.initialize({
+        plugins: [ RevealMarkdown ],
+        width: 1280,
+        height: 720,
+        transition: 'fade'
+      });
+    </script>
+  </body>
+  </html>
+

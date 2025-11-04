@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curso 1 – Panorama WebXR e Industria</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="../Docs/slides.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown data-separator="^---$" data-separator-vertical="^--$">
+          <textarea data-template>
+# Curso 1
+## Panorama WebXR e Industria
+
+Duración: 2 horas — Nivel: Introductorio
+
+---
+
+## Objetivos
+- Entender VR/AR/MR, WebXR, OpenXR
+- Ver capacidades y límites de hardware (Quest 3)
+- Casos de uso industriales
+- Roadmap de adopción y gobernanza
+
+---
+
+## Ecosistema XR
+- VR, AR, MR y tracking 6DoF
+- Hand tracking y controladores
+- Passthrough y MR
+
+--
+
+### WebXR en el navegador
+- Estándar W3C
+- Emulación (IWER/DevUI)
+- Pruebas sin visor
+
+---
+
+## WebXR vs Nativo (OpenXR)
+- Velocidad de prototipado vs rendimiento máximo
+- Acceso hardware, APIs y distribución
+- Casos: web pública, intranet, kioskos
+
+---
+
+## Hardware (Meta Quest 3)
+- Resolución y tasa de refresco
+- Ergonomía y confort
+- Wi‑Fi 6/6E, uso en red local
+
+---
+
+## Casos de uso (Industria)
+- Formación y SOPs 3D
+- Mantenimiento remoto
+- Gemelos digitales e indicadores
+- Planificación de layout
+
+---
+
+## Seguridad y gobernanza
+- Permisos, privacidad, datos sensibles
+- Certificados y HTTPS en LAN
+- MDM/Quest for Business
+
+---
+
+## Roadmap de adopción
+- Identificar 1–2 pilotos
+- KPIs de valor y telemetría
+- Despliegue y soporte
+
+---
+
+## Q&A
+          </textarea>
+        </section>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/markdown/markdown.js"></script>
+    <script>
+      const deck = new Reveal({ hash: true, slideNumber: true });
+      deck.initialize({
+        plugins: [ RevealMarkdown ],
+        width: 1280,
+        height: 720,
+        transition: 'fade'
+      });
+    </script>
+  </body>
+  </html>
+

@@ -5,9 +5,9 @@
 # WebXR First Steps (Three.js + WebXR)
 
 ## Objetivo
-Este repositorio esta horientado a la presentacion y aprendizaje inicial de conceptos de virtualizacion en tanto dispositivos , entornos y formatos de integración.
+Este repositorio está orientado a la presentación y aprendizaje inicial de conceptos de virtualización en tanto dispositivos, entornos y formatos de integración.
 
-La instación provee:
+La instalación provee:
 Frontend WebXR (Three.js) para demostrar y capacitar sobre experiencias inmersivas accesibles desde el navegador del visor (Quest/Pico, etc.). Ideal para difusión, formación y prototipado rápido de casos industriales, dejando el “runtime” XR al navegador.
 
 ## Por qué WebXR + Three.js
@@ -15,9 +15,23 @@ Frontend WebXR (Three.js) para demostrar y capacitar sobre experiencias inmersiv
 - Sin dependencias de PC VR: funciona en Linux/Windows/macOS con navegador.
 - Ecosistema web: integra con backends y servicios vía HTTP/WS.
 
-## Requisitos
+## Pre‑instalación (requerimientos)
 - Node.js 20+ y npm 10+.
+  - Verifica versiones: `node -v` y `npm -v`.
+  - Ubuntu (recomendado con nvm):
+    - `curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
+    - `source ~/.bashrc && nvm install 20 && nvm use 20`
+  - macOS: `brew install node@20 && brew link node@20 --force`
+  - Windows: `winget install OpenJS.NodeJS.LTS` (o instala desde https://nodejs.org)
+- Git (para clonar el repositorio).
 - Un visor con navegador WebXR (Meta Quest, Pico, etc.) en la misma red Wi‑Fi.
+- Opcional (para desarrollo avanzado):
+  - Google Chrome/Edge actualizados (DevTools).
+  - ADB para port forwarding (USB):
+    - Ubuntu: `sudo apt install adb`
+    - macOS: `brew install android-platform-tools`
+    - Windows: “platform-tools” de Android o `choco install adb`
+  - Certificados de desarrollo confiables: `mkcert` para HTTPS local sin avisos.
 
 ## Documentación
 - Índice general: `./DOCUMENTACION_INDICE.md`
@@ -26,11 +40,11 @@ Frontend WebXR (Three.js) para demostrar y capacitar sobre experiencias inmersiv
 - Tutorial paso a paso (recomendado): `./Docs/tutorial_webxr_vrmeta.md`
 - Cursos y slides: `./cursos/Indice.md`
 
-## Instalación y desarrollo (3 pasos)
+## Instalación (3 pasos)
 1) Clonar e instalar dependencias
 ```bash
-git clone https://github.com/<tu-usuario>/<tu-repo>.git
-cd <tu-repo>
+git clone https://github.com/J2TechAntaresTechnologies/MetaQuest_FirstSteps_Antares.git
+cd MetaQuest_FirstSteps_Antares
 npm install
 ```
 2) Ejecutar el servidor de desarrollo (HTTPS, 0.0.0.0:8081)

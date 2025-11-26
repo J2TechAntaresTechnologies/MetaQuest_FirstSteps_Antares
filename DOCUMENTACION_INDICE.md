@@ -5,7 +5,7 @@ Este índice resume la documentación existente y los componentes principales de
 ## Documentación principal
 
 - `webxr-first-steps/README.md`
-  Guía principal (en inglés). Explica el objetivo del tutorial (crear un mini‑juego WebXR con Three.js), requisitos (Node 20+, npm 10+), instalación y ejecución (`npm install`, `npm run dev`), desarrollo con visor (IP/ADB), emulación integrada con IWER/@iwer/devui, índice de capítulos, y despliegue (GitHub Pages o `npm run build`).
+  Guía principal del proyecto. Explica el objetivo del tutorial (crear un mini‑juego WebXR con Three.js), requisitos (Node 20+, npm 10+), instalación y ejecución (`npm install`, `npm run dev`), desarrollo con visor (IP/ADB), emulación integrada con IWER/@iwer/devui, índice de capítulos, y despliegue (GitHub Pages o `npm run build`).
 
 - `webxr-first-steps/CONTRIBUTING.md`
   Proceso de contribución: flujo de PRs, CLA, issues, estilo de código con ESLint/Prettier y consejos para VS Code.
@@ -84,4 +84,3 @@ Este índice resume la documentación existente y los componentes principales de
 
 - Para pruebas en visor por red local, usa la IP del PC y el puerto indicado por `webpack-dev-server`. Si hay advertencia de certificado, confírmalo en el navegador del visor.
 - Si usas otras extensiones/emuladores WebXR en el navegador de escritorio, desactívalos para evitar conflictos con IWER.
-

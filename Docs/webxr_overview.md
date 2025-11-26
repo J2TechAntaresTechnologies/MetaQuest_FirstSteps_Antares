@@ -52,11 +52,14 @@
 - Reutiliza materiales y texturas; limita drawcalls.
 - Presupuesta GPU/CPU por visor (resolución/Hz); mide con herramientas del navegador.
 
-## Probarlo con este repositorio
-- Backend: `vrmeta_app` expone un servidor FastAPI + WebSocket y sirve un cliente WebXR de ejemplo.
-- Pasos mínimos:
+## Probarlo con este ecosistema
+- Cliente WebXR (este repositorio `webxr-first-steps`, frontend puro):
+  - `npm install`
+  - `npm run dev`
+  - Abrir `https://localhost:8081` desde el PC o `https://<IP-PC>:8081` desde el visor (aceptando el certificado cuando sea necesario).
+- Backend de ejemplo (repositorio complementario `vrmeta_app`, opcional):
   - `cd vrmeta_app && pip install -e .`
   - `vrmeta-server --host 0.0.0.0 --port 8000 --reload`
-  - Desde el visor, abrir `http://<IP-PC>:8000/web/index.html` (o usar HTTPS como en el README).
+  - En el visor, abrir `http://<IP-PC>:8000/web/index.html` (o servir por HTTPS según la guía del backend).
 - El cliente de ejemplo usa Three.js y un WebSocket hacia `/ws` para intercambio básico de mensajes.
-- Para un recorrido guiado, ver `docs/tutorial_webxr_vrmeta.md`.
+- Para un recorrido guiado del backend + cliente, ver `Docs/tutorial_webxr_vrmeta.md` (requiere el repositorio `vrmeta_app` clonado aparte).

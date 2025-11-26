@@ -2,6 +2,8 @@
 
 Objetivo: en 60–90 minutos tendrás un entorno funcionando, verás una demo WebXR desde tu visor (Quest/Pico), entenderás cómo está armado el cliente WebXR, cómo hablar con el backend por WebSocket y cómo empezar a modificar la escena 3D y extender el servidor.
 
+Nota: este tutorial asume que tienes clonado aparte el repositorio `vrmeta_app` (backend FastAPI + WebXR). Ese backend no forma parte del repositorio `webxr-first-steps`; se usa como complemento opcional.
+
 Requisitos previos
 - Ubuntu 22.04 con Python 3.10 o superior.
 - Un visor con navegador WebXR (Meta Quest, Pico, Wolvic en Android), en la misma red Wi‑Fi que tu PC.
@@ -113,6 +115,5 @@ Requisitos previos
 - Extraer el cliente WebXR a un proyecto separado (Vite) si el frontend crece.
 
 Referencias
-- WebXR overview del repo: `docs/webxr_overview.md`
+- WebXR overview del repo: `Docs/webxr_overview.md`
 - Índice de documentación del repo: `DOCUMENTACION_INDICE.md`
-

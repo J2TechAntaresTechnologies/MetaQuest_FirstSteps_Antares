@@ -87,8 +87,7 @@ Si necesitas nativo en Linux/PC VR, usa un runtime OpenXR (p. ej., Monado) y un 
 - Pulsa “Enter VR” (VRButton). Si tu navegador no soporta WebXR, se activa la emulación IWER con controles desde teclado/ratón.
 
 ## Diapositivas (resumen)
-- Markdown: `./Docs/vr_informe_slides.md`
-- HTML listo: `./Docs/vr_informe_slides.html`
+- HTML: `./Docs/vr_informe_slides.html` (Reveal.js con Markdown incrustado)
 - Estilos y logo: `./Docs/slides.css`, `./Docs/assets/logo_antares.png`
 
 ## Piloto industrial (guía)
@@ -116,5 +115,5 @@ WebXR es un estándar abierto en evolución. Aquí mostramos cómo implementarlo
 Autor: Juan Ignacio Martinez
 
 <p align="center">
-  <img src="./tutorial/assets/webxr-first-steps.png" style="max-width:190px"/>
+  <img src="./tutorial/assets/webxr-first-steps.png" style="max-width:100px"/>
 </p>
